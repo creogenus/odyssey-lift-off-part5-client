@@ -7,7 +7,7 @@ import { ApolloProvider, ApolloClient, InMemoryCache } from "@apollo/client";
 const client = new ApolloClient({
   uri: "https://odyssey-lift-off-part5-server-production-4e6c.up.railway.app/", // change to YOUR own production server
   cache: new InMemoryCache(),
-  name: "web",
+  name: "web1",
   version: "1.0",
 });
 
